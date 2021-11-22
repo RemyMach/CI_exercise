@@ -25,6 +25,6 @@ public class ContentExtractorTest {
     Assertions.assertThat(team.getName()).isEqualTo("Paris-Saint-Germain");
     Assertions.assertThat(team.getScoredGoals()).isEqualTo(79);
     Assertions.assertThat(team.getConcededGoals()).isEqualTo(36);
-    Assertions.assertThat(true).isEqualTo(1);
+    Assertions.assertThat(true).isEqualTo(12);
   }
 }
