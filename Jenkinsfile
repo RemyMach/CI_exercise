@@ -1,5 +1,7 @@
 pipeline {
 
+    properties([pipelineTriggers([githubPush()])])
+
     agent any
     tools {
             maven "jeanPomme"
